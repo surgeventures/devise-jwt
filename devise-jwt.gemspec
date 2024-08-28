@@ -6,12 +6,12 @@ require 'devise/jwt/version'
 Gem::Specification.new do |spec|
   spec.name          = "devise-jwt"
   spec.version       = Devise::JWT::VERSION
-  spec.authors       = ["Marc Busqué"]
-  spec.email         = ["marc@lamarciana.com"]
+  spec.authors       = ["Marc Busqué", "Bruno Antunes"]
+  spec.email         = ["bruno.antunes@fresha.com"]
 
   spec.summary       = %q{JWT authentication for devise}
   spec.description   = %q{JWT authentication for devise with configurable token revocation strategies}
-  spec.homepage      = "https://github.com/waiting-for-dev/devise-jwt"
+  spec.homepage      = "https://github.com/surgeventures/devise-jwt"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
